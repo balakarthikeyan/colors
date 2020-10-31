@@ -1,0 +1,23 @@
+{
+  "name": "number-formatter",
+  "version": "1.0.0",
+  "description": "A small library that adds commas to numbers",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balakarthikeyan/number-formatter.git"
+  },
+  "author": "Balakarthikeyan <balakarthikeyan07@gmail.com> (http://www.cutcopyshare.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balakarthikeyan/number-formatter/issues"
+  },
+  "homepage": "https://github.com/balakarthikeyan/number-formatter#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
+  }
+}
