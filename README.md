@@ -17,11 +17,11 @@ npm publish --access=public
 
 ## Installation
 
-  `npm install @balakarthikeyan/number-formatter`
+  `npm install @balakarthikeyan/sample-number-formatter`
 
 ## Usage
 
-    var numFormatter = require('@balakarthikeyan/number-formatter');
+    var numFormatter = require('@balakarthikeyan/sample-number-formatter');
 
     var formattedNum = numFormatter(12345678);
   
