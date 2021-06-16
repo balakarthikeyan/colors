@@ -14,6 +14,12 @@ npm set init.author.email "balakarthikeyan07@gmail.com"
 npm set init.author.url "http://www.cutcopyshare.com"
 npm login
 npm init
+
+git add .
+git commit -m “Initial release”
+git tag v1.0.0
+git push origin master --tags
+
 npm publish --access=public
 ```
 
@@ -38,3 +44,9 @@ npm publish --access=public
 ## Contributing
 
 Add unit tests for any new or changed functionality. Lint and test your code.
+
+## Updating the version
+
+npm version patch|minor|major -m "Version %s - <Message>"
+git push && git push --tags (or git push origin master --tags)
+npm publish
